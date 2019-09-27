@@ -2,12 +2,12 @@ import React from "react";
 import { StyleSheet, View } from "react-native";
 import Colors from '../constants/colors'
 
-import BodyText from "../components/BodyText";
+import TitleText from "../components/TitleText";
 
 const NumberContainer = ({ children }) => {
   return (
     <View style={styles.container}>
-      <BodyText style={styles.number}>{children}</BodyText>
+      <TitleText style={styles.number}>{children}</TitleText>
     </View>
   );
 };
